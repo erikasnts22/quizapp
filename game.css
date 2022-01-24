@@ -7,29 +7,43 @@
     background-color: white;
   }
   
-  .choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-  }
-  
-  .choice-prefix {
-    padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;
-    color: white;
-  }
-  
-  .choice-text {
-    padding: 1.5rem;
-    width: 100%;
-  }
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
 
-  .correct {
-    background-color: green;
-  }
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
 
-  .incorrect {
-    background-color: rgb(170, 17, 17);
-  }
-  
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: rgb(170, 17, 17);
+}
+
+/* HUB */
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
